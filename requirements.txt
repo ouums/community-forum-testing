@@ -1,0 +1,10 @@
+# 社区论坛测试项目 —— Python 依赖
+# 安装：python -m pip install -r requirements.txt
+# UI 自动化首次使用还需下载浏览器：python -m playwright install chromium
+
+requests>=2.34.2       # 接口测试与功能脚本 HTTP 调用
+openpyxl>=3.1.5        # 测试用例.xlsx 读取与维护
+playwright>=1.62.0     # UI 自动化（06_UI自动化）
+pytest>=9.1.1          # 接口自动化套件（03_接口测试/接口自动化）
+allure-pytest>=2.16.0  # 接口自动化 Allure 报告（查看报告另需 allure 命令行工具）
+python-dotenv>=1.0.1   # 可选：从仓库根目录 .env 读取配置

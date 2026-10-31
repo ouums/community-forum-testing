@@ -1,0 +1,33 @@
+# 配置与密钥
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+*.iml
+
+# 运行产物与原始证据（公开仓库不提交）
+allure-results/
+allure-report/
+logs/
+*.log
+*.jtl
+report_*/
+02_测试用例/结果_*.json
+03_接口测试/接口自动化/清理结果_API.json
+06_UI自动化/结果_UI自动化.json
+06_UI自动化/清理结果.json
+06_UI自动化/截图/
+04_缺陷报告/截图/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
